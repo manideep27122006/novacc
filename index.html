@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Coffee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">NOVA</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="order-btn" onclick="orderNow()">Order Now</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div>
+        <p class="tag">FRESHLY ROASTED</p>
+        <h1>Good Coffee.<br>Good Mood.</h1>
+        <p class="description">Handcrafted coffee and fresh pastries made for your everyday moments.</p>
+        <button class="primary" onclick="orderNow()">Explore Menu</button>
+      </div>
+      <div class="coffee-card">
+        <div class="cup">☕</div>
+        <h2>Signature Latte</h2>
+        <p>Rich espresso · Steamed milk</p>
+        <strong>₹180</strong>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <p class="tag">OUR MENU</p>
+      <h2>Customer Favorites</h2>
+      <div class="cards">
+        <article><span>☕</span><h3>Cappuccino</h3><p>₹160</p></article>
+        <article><span>🥐</span><h3>Butter Croissant</h3><p>₹120</p></article>
+        <article><span>🍫</span><h3>Mocha</h3><p>₹190</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>© 2026 Nova Coffee</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
